@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900");
+
+html,
+body,
+.app {
+    height: 100vh;
+    background-color: #455281;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background-color: #1a1b21;
+    height: 80%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-info {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot {
+    height: 300px;
+    max-width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.name-title {
+    color: white;
+}
+
+.email {
+    margin-right: 50px;
+}
+
+.linkedin {
+    margin-left: 50px;
+}
+
+.contact-info {
+    height: 30%;
+    width: 100%;
+}
+
+.description {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #161619;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.social-media-icon {
+    fill: #918e9b;
+    height: 50%;
+    border-radius: 10px;
+    max-block-size: 40px;
+}
+
+.discord {
+    margin-left: 20%;
+}
+
+.twitter {
+    margin-right: 20%;
 }
